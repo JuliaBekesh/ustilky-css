@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 :root {
-    --primary-color: black;
-    --secondary-color: white;
     font-family: 'Quicksand', sans-serif;
     scroll-behavior: smooth;
 }
@@ -16,7 +14,7 @@ body {
     margin: auto;
 }
 
-h1, h2, p, div, nav, section {
+h2, p, div, nav, section {
     margin: 1;
     padding: 0;
 }
@@ -33,7 +31,7 @@ header nav ul {
     margin: 1;
     padding: 1;
     list-style-type: none;
-    box-shadow: inset 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc inset;
     
 }
     
@@ -41,7 +39,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--primary-color);
+    
 }
 
 header nav ul li a:hover {
@@ -56,6 +54,7 @@ li a{
 header nav ul li a:hover {
     text-decoration: underline;
 }
+
 @media (min-width: 500px) {
     header nav {
         display: flex;
